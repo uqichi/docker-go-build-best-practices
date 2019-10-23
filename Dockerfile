@@ -1,4 +1,4 @@
-FROM golang:1.13.2 as builder
+FROM golang:1.13.2-alpine as builder
 
 WORKDIR /go/src/app
 ENV GO111MODULE=on
